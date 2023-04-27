@@ -1,0 +1,65 @@
+{
+  "name": "facebook-login-react",
+  "version": "1.0.0",
+  "description": "A Component React for Facebook Login",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js",
+    "bundle": "cross-env NODE_ENV=production node_modules/.bin/webpack -p --config webpack.config.dist.js",
+    "test": "node_modules/.bin/eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Artash123456/facebook-login-react.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "facebook-login",
+    "facebook-login-react"
+  ],
+  "author": "Artashes Mikaelyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keppelen/react-facebook-login/issues"
+  },
+  "homepage": "https://github.com/Artash123456/facebook-login-react.git",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel": "^6.5.2",
+    "babel-core": "^6.6.5",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.5.0",
+    "cross-env": "^5.0.0",
+    "css-loader": "^0.19.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.0.0",
+    "eslint-plugin-react": "^3.11.3",
+    "postcss-loader": "^0.6.0",
+    "prop-types": "^15.5.10",
+    "react": "^18.2.0",
+    "react-css-modules": "^3.5.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.10.0",
+    "style-loader": "0.12.x",
+    "webpack": "5.81.0",
+    "webpack-dev-server": "4.13.3"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-object-assign"
+    ]
+  }
+}
